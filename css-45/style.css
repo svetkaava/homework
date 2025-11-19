@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.block {
+    background-color: #ded7e5;
+    max-height: 500px;
+    max-width: 1300px;
+    border: 2px solid #000000;
+    border-radius: 30px 0 0 30px;
+    overflow: auto;
+    padding: 5px 3px;
+}
+
+.cards {
+    background-color: rgb(178, 153, 123);
+    max-width: 250px;
+    max-height: 300px;
+    border-radius: 30px;
+    border: 2px solid #625134;
+    display: inline-block;
+    padding: 25px;
+    margin: 5px 3px;
+    box-shadow: inset 1px 1px 5px #51453a;
+}
